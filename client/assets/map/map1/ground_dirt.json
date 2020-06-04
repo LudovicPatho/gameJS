@@ -1,0 +1,12 @@
+{ "columns":1,
+ "image":"ground_dirt.png",
+ "imageheight":70,
+ "imagewidth":70,
+ "margin":0,
+ "name":"ground_dirt",
+ "spacing":0,
+ "tilecount":1,
+ "tileheight":70,
+ "tilewidth":70,
+ "type":"tileset"
+}

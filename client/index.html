@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Save the world</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./client/assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000">
+</head>
+<body>
+
+  <div id="game"></div>
+  <div class="loader">
+     <div class="loading"></div>
+     <p>Loading</p>
+  </div>
+  <div id="message" class="message"></div>
+  <section class="modal fade">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <header class="modal-header">
+                  <h2> The revenge of Blinky</h2>
+                  <h3 class="modal-title">Veuillez entrer votre pseudo </h3>
+              </header>
+              <div class="modal-body">
+                  <p><input type="text" id="pseudo" class="form-control" placeholder="Votre pseudo"></p>
+              </div>
+              <footer class="modal-footer">
+                  <button type="button" class="btn" id="btn" class="btn btn-primary">Save</button>
+              <footer>
+          </div>
+      </div>
+  </section>
+  <section class="end fade"></section>
+
+
+
+
+
+  <script src="./client/assets/js/lib/phaser.js"></script>
+  <script src="./socket.io/socket.io.js"></script>
+  <script src="./client/assets/js/game.js"></script>
+  <script src="./client/assets/js/client.js"></script>
+  <script src="./client/assets/js/main.js"></script>
+</body>
+</html>
